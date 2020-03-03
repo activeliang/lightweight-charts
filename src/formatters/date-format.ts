@@ -81,5 +81,5 @@ export const dateFormatFunctions: Record<DateFormat, DateFormatFn> = {
 	'MM/dd/yy': (date: Date, locale: string) => `${MM(date)}/${dd(date)}/${yy(date)}`,
 	'MM/dd/yyyy': (date: Date, locale: string) => `${MM(date)}/${dd(date)}/${yyyy(date)}`,
 	'MM.dd.yy': (date: Date, locale: string) => `${MM(date)}.${dd(date)}.${yy(date)}`,
-	'MM.dd.yyyy': (date: Date, locale: string) => `${MM(date)}.${dd(date)}.${yyyy(date)}`,
+	'MM.dd.yyyy': (date: Date, locale: string) => `${MM(date)}.${dd(date)}.${yyyy(date)}-lianglianghahahaha`,
 };
